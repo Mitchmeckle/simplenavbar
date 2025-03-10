@@ -1,22 +1,41 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-.box{
+.parent{
     height: 100px;
-    width: 100px;
-    background-color: plum;
-    
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 0px 20px
 }
 
-body{
+.logo{
     display: flex;
-    height: 100vh;
     justify-content: center;
-    gap: 10;
     align-items: center;
-    justify-content: space-around;
+    text-transform: uppercase;
+    color: lightblue;
+    font-size: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.Button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
 }
